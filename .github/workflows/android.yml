@@ -29,5 +29,5 @@ jobs:
       with:
         name: app-${{github.event.release.tag_name }}.apk
          path:app/build/outputs/apk/debug/app-debug.apk
-        repo-token: ${{ github.token }}
-         content-type:application/zip
+repo-token: ${{ github.token }}
+content-type:application/zip
